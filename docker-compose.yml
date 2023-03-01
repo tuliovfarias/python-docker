@@ -1,0 +1,9 @@
+version: '3'
+services:
+  python:
+    image: my-python-app
+    container_name: python
+    volumes:
+      - ./test:/app
+      - ./output:/output/
+    command: python3 /app/teste.py

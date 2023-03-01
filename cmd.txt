@@ -1,0 +1,2 @@
+docker compose up -d
+docker run --name python -v path/test:/app/ python-image python3 /app/teste.py
